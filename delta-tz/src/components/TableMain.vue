@@ -225,5 +225,9 @@ export default {
     min-width: 10px;
     font-size: 11px;
   }
+  .table-main__header__item
+  {
+    padding: 20px 2px ;
+  }
 }
 </style>
