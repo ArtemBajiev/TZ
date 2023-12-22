@@ -216,12 +216,12 @@ export default {
 @media (max-width: 600px) {
   .table-main__line-element
   {
-    max-width: 180px;
+    max-width: 100px;
     min-width: 10px;
     font-size: 11px;
   }
   .table-main__total-revenue__item{
-    max-width: 180px;
+    max-width: 100px;
     min-width: 10px;
     font-size: 11px;
   }
