@@ -157,7 +157,7 @@ export default {
   box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.212);
 }
 .table-main__header__item {
-  padding: 20px 0px;
+  padding: 20px 5px;
   margin: 2px;
   background-color: #f9f9f9;
 }
@@ -195,6 +195,23 @@ export default {
 }
 .procent {
   margin-left: 5px;
+}
+@media (hover: hover) {
+  .table-main__total-revenue *{
+    transition: all 0.3s ease-in-out;
+  }
+  .table-main__line-elements > *{
+  transition: all 0.3s ease-in-out;
+}
+  .table-main__total-revenue:hover > * {
+    cursor: pointer;
+    background-color: #bebebe65;
+  }
+  .table-main__line-elements:hover > *
+  {
+    cursor: pointer;
+    background-color: #bebebe65;
+  }
 }
 @media (max-width: 600px) {
   .table-main__line-element
